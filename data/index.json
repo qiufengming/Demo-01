@@ -7,13 +7,17 @@ var data = {
         {"name":"npm","url":"./pages/npm/npm.html"},
         {"name":"JavaScript","url":"./pages/javascript/javascript.html"},
         {"name":"Element UI","url":"./pages/elementUI/elementUI.html"},
+        {"name":"Ant Design","url":"./pages/antd/antd.html"},
     ],
     "hobby":[
         {"name":"小提琴","url":""}
     ],
     "other":[
         {"name":"英语","url":""},
-        {"name":"日语","url":""}
+        {"name":"日语","url":""},
+        {"name":"高中数学","url":"./pages/highSchool/mathematics/mathematics.html"},
+        {"name":"MKE净颜嫩肤美容仪","url":"./pages/others/MKE/mke.html"},
+        {"name":"艾灸","url":""}
     ]
 };
 
