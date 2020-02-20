@@ -1,0 +1,30 @@
+*{ box-sizing: border-box; }
+html, body{
+	width: 100%;
+	height: auto;
+	min-height: 100vh;
+	padding: 0;
+	margin: 0;
+	background-color: #fff;
+}
+table{
+	border-spacing: 0;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.page-wrap{ min-height: 100vh; position: relative; }
+.row:before, .row:after{
+	display: table;
+	content: "";
+}
+.row:after{
+	clear: both;
+}
+
+@media (max-width: 767px){}
+@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 1200px) {}

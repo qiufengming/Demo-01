@@ -1,0 +1,10 @@
+.table-wrap{ height: 100%; }
+.table-wrap table{ height: auto; min-height: 100vh; width: 100%; }
+.table-wrap .row1{ background-color: #fddbe2; } /* #FCCFD9 */
+.table-wrap .row2{ background-color: #f9c6d2; } /* #FDABBE */
+.table-wrap .row3{ background-color: #f7b1c2; } /* #FA8FA8 */
+.table-wrap .row{ text-align: center; }
+.table-wrap .font{ background-color: #f71f52; border-radius: 3px; display: inline-block; padding: 2px 8px; margin: 3px 10px; font-size: 18px; text-decoration: none; }
+.table-wrap .row1 .font{ color: #fddbe2; }
+.table-wrap .row2 .font{ color: #f9c6d2; }
+.table-wrap .row3 .font{ color: #f7b1c2; }   

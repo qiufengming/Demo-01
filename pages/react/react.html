@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>React</title>
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="react.css"> 
+</head>
+<body>
+    <div class="page-wrap">
+        <div class="top-wrap">
+            <div class="nav">
+                <ul class="row">
+                    <li><a class="home" href="../../index.html">&lt;&lt;返回首页</a></li>
+                    <li class="active"><a onclick="clickNav(this,'learn-url-wrap')" href="javascript: void(0);">学习地址</a></li>
+                    <li><a onclick="clickNav(this, 'note-wrap')" href="javascript: void(0);">学习笔记</a></li>
+                    <li><a onclick="clickNav(this, 'demo-wrap')" href="javascript: void(0);">学习Demo</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content-wrap">
+            <!-- 学习地址 start -->
+            <div class="table-wrap learn-url-wrap active">
+                <table id="learn-url">
+                    <tbody></tbody>
+                </table>
+            </div>
+            <!-- 学习地址 end -->
+
+            <!-- 学习笔记 start -->
+            <div class="table-wrap note-wrap"></div>
+            <!-- 学习笔记 end -->
+
+            <!-- 学习demo start -->
+            <div class="table-wrap demo-wrap">
+                <table id="demo">
+                    <tbody></tbody>
+                </table>
+            </div>
+            <!-- 学习demo end -->
+        </div>
+    </div>
+    <script type="text/javascript" src="../../js/common.js"></script>
+    <script type="text/javascript" src="../../data/react.json"></script>
+    <script type="text/javascript" src="react.js"></script>    
+</body>
+</html>

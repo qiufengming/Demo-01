@@ -1,0 +1,24 @@
+var data = {
+    "work":[
+        {"name":"React","url":"./pages/react/react.html"},
+        {"name":"Vue","url":"./pages/vue/vue.html"},
+        {"name":"webpack","url":"./pages/webpack/webpack.html"},
+        {"name":"nodejs","url":"./pages/nodejs/nodejs.html"},
+        {"name":"npm","url":"./pages/npm/npm.html"},
+        {"name":"JavaScript","url":"./pages/javascript/javascript.html"},
+        {"name":"Element UI","url":"./pages/elementUI/elementUI.html"},
+    ],
+    "hobby":[
+        {"name":"小提琴","url":""}
+    ],
+    "other":[
+        {"name":"英语","url":""},
+        {"name":"日语","url":""}
+    ]
+};
+
+
+
+
+
+

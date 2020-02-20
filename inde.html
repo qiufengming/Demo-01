@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>首页</title>
+	<link rel="stylesheet" href="./css/common.css">
+	<style>
+		.img-wrap{ position: absolute; top: calc(50vh - 150px); left: calc(50vw - 150px); text-align: center; }
+		.img-wrap img{ width: 300px; height: 300px; border-radius: 100px; }
+		.home-table{
+			width: 100%;
+			height: auto;
+			min-height: 100vh;
+			text-align: center;
+			color: #fff;
+			vertical-align: middle;
+		}
+		.home-table td{
+			width: 50%;
+			height: 50%;
+			min-height: 250px;
+		}
+		.row1-l{ background-color: #78D1FE; }
+		.row1-r{ background-color: #FF7F9D; }
+		.row2-l{ background-color: #FFEB69; }
+		.row2-r{ background-color: #82EDC2; }
+		.home-table td a{ font-size: 60px; color: #fff; text-decoration: none; }
+
+	</style>
+</head>
+<body>
+	<div class="page-wrap">
+		<div class="img-wrap">
+			<img src="./img/img-01.jpg" alt="头像">
+		</div>
+		<table class="home-table">
+			<tbody>
+				<tr>
+					<td class="row1-l">
+						<a href="./html/me.html">个人信息<br />教育背景<br />自我评价</a>
+					</td>
+					<td class="row1-r">
+						<a href="./html/skill.html">专业技能</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="row2-l">
+						<a href="./html/workExperience.html">工作经历</a>						
+					</td>
+					<td class="row2-r">
+						<a href="./html/projectExperience.html">项目经验</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<script src="./js/common.js"></script>
+</body>
+</html>
