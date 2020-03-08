@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Git</title>
+    <link rel="stylesheet" href="./../css/common.css">
+    <link rel="stylesheet" href="git.css"> 
+</head>
+<body>
+    <div class="page-wrap">
+    	<div class="top-wrap">
+            <div class="nav">
+                <ul class="row">
+                    <li><a class="home" href="../../index.html">&lt;&lt;返回首页</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content-wrap">
+            <div class="modal-wrap">
+                <h2>github上传本地项目代码</h2>
+                <ol>
+                    <li>
+                        <p>进入github首页，点击新项目<button type="button">New repository</button></p>
+                        <p>Reposition name 处输入项目名称</p>
+                        <p>Description 处输入项目描述</p>
+                        <p>Public 和 Private 选中 Public</p>
+                        <p>勾选 Initialize this repository with a README</p>
+                        <p>点击 <button type="button">Create repository</button>创建按钮</p>
+                    </li>
+                    <li>
+                        <p>点击 <button type="button">Clone or download</button>按钮</p>
+                        <p>复制里面的地址备用（记为 cloneUrl）</p>
+                    </li>
+                    <li>
+                        <p>在要创建项目的目录（文件夹）下，鼠标右键，选择“Git Bash Here”打开 gitbash</p>
+                    </li>
+                    <li>
+                        <p>如果本地没有配置好git上的用户名和邮箱，输入如下命令：</p>
+                        <p>git config --global user.name "你github的用户名"</p>
+                        <p>git config --global user.email "你github的邮箱"</p>
+                    </li>
+                    <li>
+                        <p>输入命令 “git clone cloneUrl”（cloneUrl 为 Clone or download 里复制的地址）</p>
+                        <p>然后就会在当前文件夹上生成在 github 上创建的项目名称</p>
+                    </li>
+                    <li>
+                        <p>输入命令“cd 项目名”，项目名为新增文件夹的名称，进入到项目文件夹里</p>
+                        <p>把这个项目要上传的文件复制到该项目文件夹里</p>
+                    </li>
+                    <li>
+                        <p>在 gitbash 输入命令 “git add .” 把该项目文件夹下新的文件或修改过的文件添加进来，如果有的文件之前已经添加了，它会自动省略。</p>
+                        <p></p>
+                    </li>
+                    <li>
+                        <p>输入命令 “ git commit  -m  "提交信息" ” （提交信息是你的项目说明）</p>
+                        <p>注： git commit 后面加 -m 表示可以直接输入提交说明，如果不加 -m ，直接输入git commit，就会弹出一个类似于 vim 的界面，让你输入提交说明</p>
+                    </li>
+                    <li>
+                        <p>输入命令 “git push -u origin master”</p>
+                        <p>此操作目的是把本地仓库push到github上面，此步骤需要你输入登录github上的帐号和密码</p>
+                    </li>
+                    <li>
+                        <p>然后进入github页面，刷新下页面就会显示刚上传的项目</p>
+                    </li>
+                </ol>
+            </div>
+             <div class="modal-wrap">
+                <h2>预览Github的页面</h2>
+                <ol>
+                    <li>
+                        <p>进入github相应的项目中，点进settings</p>
+                    </li>
+                    <li>
+                        <p>找到 “GitHub Pages”功能模块</p>
+                    </li>
+                    <li>
+                        <p>点击master branch，并save</p>
+                    </li>
+                    <li>
+                        <p>GitHub Pages 版块会有个预览地址</p>
+                        <p>Your site is published at url地址</p>
+                    </li>
+                </ol>
+            </div>
+            <div class="modal-wrap">
+                <h2>将已有项目提交到 github</h2>
+                <ol>
+                    <li>
+                        <p>git Bash打开项目，使用cd命令进入已有项目根目录下</p>
+                    </li>
+                    <li>
+                        <p>添加已有项目到github</p>
+                        <p>touch README.md //新建说明文件</p>
+                        <p>git init //在当前项目目录中生成本地git管理,并建立一个隐藏.git目录</p>
+                        <p>git add . //添加当前目录中的所有文件到索引</p>
+                        <p>git commit -m "first commit" //提交到本地源码库，并附加提交注释</p>
+                        <p>git remote add origin https://github.com/chape/test.git //添加到远程项目，别名为origin</p>
+                        <p>git push -u origin master //把本地源码库push到github 别名为origin的远程项目中，确认提交</p>
+                    </li>
+                    <li>
+                        <p>更新代码</p>
+                        <p>cd 项目根目录</p>
+                        <p>git add .</p>
+                        <p>git commit -m "update test" //检测文件改动并附加提交注释</p>
+                        <p>git push -u origin master //提交修改到项目主线</p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./../js/common.js"></script>
+</body>
+</html>

@@ -2,12 +2,17 @@ var data = {
     "work":[
         {"name":"React","url":"./pages/react/react.html"},
         {"name":"Vue","url":"./pages/vue/vue.html"},
+        {"name":"babel","url":"./pages/babel/babel.html"},
         {"name":"webpack","url":"./pages/webpack/webpack.html"},
         {"name":"nodejs","url":"./pages/nodejs/nodejs.html"},
         {"name":"npm","url":"./pages/npm/npm.html"},
+        {"name":"yarn","url":"./pages/yarn/yarn.html"},
         {"name":"JavaScript","url":"./pages/javascript/javascript.html"},
         {"name":"Element UI","url":"./pages/elementUI/elementUI.html"},
         {"name":"Ant Design","url":"./pages/antd/antd.html"},
+        {"name":"ES6","url":"./pages/es6/es6.html"},
+        {"name":"JSONP","url":"./pages/jsonp/jsonp.html"},
+        {"name":"Git","url":"./pages/git/git.html"},
     ],
     "hobby":[
         {"name":"小提琴","url":""}

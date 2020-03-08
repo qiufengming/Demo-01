@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>React</title>
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="react.css"> 
+</head>
+<body>
+    <div class="page-wrap">
+        <div class="top-wrap">
+            <div class="nav">
+                <ul class="row">
+                    <li><a class="home" href="../../index.html">&lt;&lt;返回首页</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content-wrap">
+            <ol>
+                <li>
+                    <p>react-router和react-router-dom</p>
+                    <p>react-router：提供了一些router的核心api，包括Router，Route，Switch等</p>
+                    <p>react-router-dom：提供了BrowserRouter，HashRouter，Route，Link，NavLink</p>
+                </li>
+                <li>
+                    <p>路由模块安装</p>
+                    <p>npm install react-router-dom --save</p>
+                    <p>yarn add react-router-dom</p>
+                </li>
+                <li>
+                    <p>react-router-dom核心用法</p>
+                    <ul style="padding-left: 20px;list-style-type: disc;">
+                        <li>
+                            <p>HashRouter和BrowserRouter</p>
+                            <p>HashRouter ⇒ http://localhost:3000/#/admin/buttons</p>
+                            <p>BrowserRouter ⇒ http://localhost:3000/admin/buttons</p>
+                        </li>
+                        <li>
+                            <p>Route：path、exact、component、render</p>
+                            <p>如：&lt;Route path='/admin/ui/buttons' component={BUttons} /&gt;</p>
+                            <p>
+                                &lt;Route path="/admin" render={()=>
+                                    &lt;Admin&gt;
+                                        &lt;Route path='/admin/home' component={Home} /&gt;
+                                    &lt;/Admin&gt;
+                                } /&gt;
+                            </p>
+                        </li>
+                        <li>
+                            <p>NavLink、Link</p>
+                            <xmp>
+                                import {Link} from 'react-router-dom'
+                                const Header = () => (
+                                    <header>
+                                        <ul>
+                                            <li><Link exact={true} to='/'>Home</Link></li>
+                                            <li><Link to='/about'>about</Link></li>
+                                            <li><Link to='/three'>three</Link></li>
+                                        </ul>
+                                    </header>
+                                )
+                            </xmp>
+                            <xmp>
+                                <Link to={{pathname: '/three/7'}}>Three #7</Link>
+                            </xmp>
+                            <p>定义：&lt;Routr path="/three/:number" /&gt;</p>
+                            <p>取值：this.props.match.params.number</p>
+                            <xmp>
+                                // 一个基本的location对象
+                                {pathname: '/',search: '', hash: '', key:'abc123', state: {}}
+                            </xmp>
+                        </li>
+                        <li>
+                            <p>Switch</p>
+                            <xmp>
+                                <Switch>
+                                    <Route path='/admin/ui/buttons' component={BUttons} />
+                                    <Route path='/admin/ui/modals' component={Modals} />
+                                    <Route path='/admin/ui/loading' component={Loading} />
+                                </Switch>
+                            </xmp>
+                        </li>
+                        <li>
+                            <p>Redirect</p>
+                            <p>路由重定向：&lt;Redirect to="/admin/home" /&gt;</p>
+                            <p></p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p></p>
+                    <p></p>
+                </li>
+                <li>
+                    <p></p>
+                    <p></p>
+                </li>
+                <li>
+                    <p></p>
+                    <p></p>
+                </li>
+                <li>
+                    <p></p>
+                    <p></p>
+                </li>
+                <li>
+                    <p></p>
+                    <p></p>
+                </li>
+            </ol>
+        </div>
+    </div>
+    <script type="text/javascript" src="../../js/common.js"></script>
+    <script type="text/javascript" src="../../data/react.json"></script>
+    <!-- <script type="text/javascript" src="react.js"></script>  -->   
+</body>
+</html>

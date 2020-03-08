@@ -28,10 +28,6 @@
     background-color: #EBEAEA;
     padding: 10px;
 }
-.content-wrap ul{
-    padding-left: 20px;
-    list-style-type: disc;
-}
 .content-wrap .table-wrap{ display: none; }
 .content-wrap .table-wrap.active{ display: block; }
 .content-wrap .table-wrap>table{

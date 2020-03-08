@@ -31,6 +31,14 @@ function getData(){
         var d = learnUrl[i];
         learnUrlInner += '<tr><td>'+d.name+'</td><td><a href="'+d.url+'" target="_blank">'+d.url+'</a></td></tr>';       
     }
+
+    // 2.
+    var noteInner = '';
+    for(var i=0;i<note.length;i++){
+        var d = note[i];
+        noteInner += '<tr><td>'+d.name+'</td><td><a href="'+d.url+'" target="_blank">'+d.url+'</a></td></tr>';       
+    }
+
     // 3.
     var demoInner = '';
     for(var i=0;i<demo.length;i++){
@@ -39,5 +47,6 @@ function getData(){
     }
     
     document.querySelectorAll('#learn-url>tbody')[0].innerHTML = learnUrlInner;
+    document.querySelectorAll('#note>tbody')[0].innerHTML = noteInner;
     document.querySelectorAll('#demo>tbody')[0].innerHTML = demoInner;
 }

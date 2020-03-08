@@ -5,6 +5,7 @@ var data = {
         {"name":"Redux","url":"http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_one_basic_usages.html"},
     ],
     "note":[
+        {"name":"React Router","url":"reactRouter.html"},
         {"name":"笔记1","url":"https://www.baidu.com/"}
     ],
     "demo":[
