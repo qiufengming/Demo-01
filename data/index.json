@@ -22,7 +22,8 @@ var data = {
         {"name":"日语","url":""},
         {"name":"高中数学","url":"./pages/highSchool/mathematics/mathematics.html"},
         {"name":"MKE净颜嫩肤美容仪","url":"./pages/others/MKE/mke.html"},
-        {"name":"艾灸","url":""}
+        {"name":"艾灸","url":""},
+        {"name":"flag","url":"./pages/others/flag/flag.html"}
     ]
 };
 
