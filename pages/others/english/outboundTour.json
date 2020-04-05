@@ -1,0 +1,243 @@
+var outboundTour = {
+	"data":[{
+		"title":"候机篇",
+		"content": [{
+			"en":"How can I find a trolley?",
+			"cn":"我怎么才能找到行李推车？"
+		},{
+			"en":"Do you know where the Airport lounges is?",
+			"cn":"你知道机场休息室在哪吗？"
+		},{
+			"en":"Do you know where the smoking area/room is?",
+			"cn":"你知道吸烟区/室在哪里吗？"
+		},{
+			"en":"Where is the restroom?",
+			"cn":"洗手间在哪？"
+		},{
+			"en":"Is my flight on time?",
+			"cn":"我乘坐的飞机会准点起飞吗？"
+		},{
+			"en":"How many hours are we behind schedule?",
+			"cn":"我们延误多长时间？"
+		}]
+	},{
+		"title":"入境篇",
+		"content": [{
+			"en":"May I see your passport,please?",
+			"cn":"麻烦请给我你的护照。"
+		},{
+			"en":"Here is my passport / Here it is?",
+			"cn":"这是我的护照。"
+		},{
+			"en":"Do you have a return ticket?",
+			"cn":"你有回程机票吗？"
+		},{
+			"en":"Yes,here it is.",
+			"cn":"有的，这是回程机票。"
+		},{
+			"en":"How long will you be staying in the United States?",
+			"cn":"预计在美国停留多久？"
+		},{
+			"en":"I plan to stay for about 10 days.",
+			"cn":"预计停留10天。"
+		},{
+			"en":"How much money do you have with you?",
+			"cn":"你随身携带了多少现金？"
+		},{
+			"en":"I hava 800 dollars.",
+			"cn":"大约800美元。"
+		},{
+			"en":"I'm just passing through.",
+			"cn":"我只是过境而已。"
+		}]
+	},{
+		"title":"换汇篇",
+		"content": [{
+			"en":"Could you tell me what the exchange rate for __?",
+			"cn":"请问现在 __ （货币）汇率是多少？"
+		},{
+			"en":"Where can I change money?",
+			"cn":"我要哪里还钱？"
+		},{
+			"en":"Can you change this into dollars?",
+			"cn":"请将这些外币兑换成美金？"
+		},{
+			"en":"I'd like some small change.",
+			"cn":"请将大钞换成零钱。"
+		},{
+			"en":"Where is the ATM?",
+			"cn":"哪里有自动取款机？"
+		},{
+			"en":"Could I hava a receipt,please?",
+			"cn":"可以麻烦给我收据吗？"
+		}]
+	},{
+		"title":"值机篇",
+		"content": [{
+			"en":"Do you know where I can check in?",
+			"cn":"你知道在哪里可以值机吗？"
+		},{
+			"en":"Do you know where the check in counter is?",
+			"cn":"你知道值机柜台在哪里吗？"
+		},{
+			"en":"Can I hava a window seat,please?",
+			"cn":"可以给我一个靠窗的位置吗？"
+		},{
+			"en":"Can I have an aisle seat,please?",
+			"cn":"可以给我一个靠近过道的位置吗？"
+		},{
+			"en":"I would like to check in my luggage.",
+			"cn":"我想要托运行李。"
+		},{
+			"en":"How many luggages are you checking in?",
+			"cn":"有多少件托运行李？"
+		},{
+			"en":"Do you have a carry on?",
+			"cn":"有手提行李吗？"
+		},{
+			"en":"Can you place your baggage up here?",
+			"cn":"请把行李放上去。"
+		},{
+			"en":"Your luggage is overweight.",
+			"cn":"你的行李超重了。"
+		},{
+			"en":"Is this bag OK ad hand luggage?",
+			"cn":"这个包可以随身带上飞机吗？"
+		},{
+			"en":"Can I take this through security?",
+			"cn":"这个可以通过安检吗？"
+		},{
+			"en":"Can I check my luggage through to ... ?",
+			"cn":"行李可以直接托运到（终点）吗？"
+		}]
+	},{
+		"title":"出租篇",
+		"content": [{
+			"en":"Is there an airport bus to the city center?",
+			"cn":"这里有机场去市中心的巴士吗？"
+		},{
+			"en":"Where is the bus stop/taxi stand?",
+			"cn":"公车站/出租车招呼站在哪里？"
+		},{
+			"en":"How long does it take to go to __?",
+			"cn":"到 __ 需要多长时间？"
+		},{
+			"en":"How long does it cost to the city center by taxi?",
+			"cn":"乘计程车到市中心需要多少钱？"
+		},{
+			"en":"Take me to __/this address,please.",
+			"cn":"请载我去（景点）/地址"
+		},{
+			"en":"Do you use the metre?",
+			"cn":"你使用计价器吗？"
+		},{
+			"en":"Please stop/turn left/right here.",
+			"cn":"请载这里停车/左转/右转。"
+		},{
+			"en":"Please stop at the next intersection.",
+			"cn":"请载下个路口停车。"
+		},{
+			"en":"Can I pay the fare by credit card?",
+			"cn":"我可以用信用卡付车费吗？"
+		},{
+			"en":"Stop here,please.",
+			"cn":"请在这里停车。"
+		},{
+			"en":"Keep the change, please.",
+			"cn":"不用找钱了。"
+		}]
+	},{
+		"title":"地铁篇",
+		"content": [{
+			"en":"Do you know where the nearest subway station is?",
+			"cn":"你知道最近的地铁站在哪么？"
+		},{
+			"en":"Is this the right subway to the Rockefeller Center?",
+			"cn":"这就是去洛克菲勒中心的地铁吗？"
+		},{
+			"en":"By the way,how can I get out of the platform after I get off the train?",
+			"cn":"顺便问一下，我下车后怎么出站台呢？"
+		},{
+			"en":"How much is the fare?",
+			"cn":"车费多少"
+		}]
+	},{
+		"title":"入住篇",
+		"content": [{
+			"en":"I'd like to order something from room service.",
+			"cn":"我想要使用客房服务点餐。"
+		},{
+			"en":"I world like to have a morning call/wake-up call at 7:00 in the morning.",
+			"cn":"我想要早上7点的起床叫醒电话。"
+		},{
+			"en":"The light in this room is too dim.Please get me a brighter one.",
+			"cn":"这房间里的灯光太暗了。请给我换个亮点的。"
+		},{
+			"en":"May I have an extra bed put in my room tonight?",
+			"cn":"请问今晚我的房间里能否附加一张床？"
+		},{
+			"en":"I'd like to ask for the laundry service.",
+			"cn":"麻烦你替我把衣服拿去洗一下。"
+		},{
+			"en":"I'd like to have myroom cleaned.Would you please send a maid here right now?",
+			"cn":"我想请人打扫下我的房间，能叫个服务员过来嘛？"
+		}]
+	},{
+		"title":"退房篇",
+		"content": [{
+			"en":"Could you call a taxi for me?",
+			"cn":"可以帮我叫辆出租车吗？"
+		},{
+			"en":"I'd like to check out and finalize my bill.",
+			"cn":"我要退房和结账。"
+		}]
+	},{
+		"title":"点餐篇",
+		"content": [{
+			"en":"May I have a menu,please?",
+			"cn":"请给我菜单。"
+		},{
+			"en":"Do you have a Chinese menu?",
+			"cn":"是否有中文菜单？"
+		},{
+			"en":"What kind of dish is most popular here?",
+			"cn":"这里最受欢迎的餐点是什么呢？"
+		},{
+			"en":"Excuse me,we're ready to order.",
+			"cn":"不好意思，我们可以点餐了。"
+		},{
+			"en":"We need more time to look at the menu/decide whatto order.",
+			"cn":"我们好需要一些时间看下菜单/决定要点什么。"
+		}]
+	},{
+		"title":"用餐篇",
+		"content": [{
+			"en":"May I have another spoon,please?",
+			"cn":"可以再给我一根汤匙吗？"
+		},{
+			"en":"Could you give me a fork,please?",
+			"cn":"可以给我一个叉子吗？"
+		},{
+			"en":"Excuse me.My order hasn't arrived yet.",
+			"cn":"不好意思，我点的餐还没送到。"
+		},{
+			"en":"Could I have some more water/napkins,please?",
+			"cn":"可以再给我一些水/纸巾吗？"
+		},{
+			"en":"Excuse me.Would you please show me where the restroomis?",
+			"cn":"不好意思，可以告诉我厕所在哪里吗？"
+		}]
+	},{
+		"title":"结账篇",
+		"content": [{
+			"en":"May I have the check,please?",
+			"cn":"请问可以给我账单吗？"
+		},{
+			"en":"We are ready for the bill now.",
+			"cn":"我们要买单"
+		},{
+			"en":"That was a wonderful meal.May I have the check,please?",
+			"cn":"真是美味的一餐。请帮我买单。"
+		}]
+	}]
+}

@@ -18,7 +18,7 @@ var data = {
         {"name":"小提琴","url":""}
     ],
     "other":[
-        {"name":"英语","url":""},
+        {"name":"英语","url":"./pages/others/english/english.html"},
         {"name":"日语","url":""},
         {"name":"高中数学","url":"./pages/highSchool/mathematics/mathematics.html"},
         {"name":"教师资格证","url":"./pages/others/teacherCertificate/teacherCertificate.html"},
