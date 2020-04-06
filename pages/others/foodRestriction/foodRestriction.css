@@ -1,0 +1,52 @@
+body{
+    background-color: #E5E8F6;
+}
+/*** 头部 ***/
+.top-wrap{ 
+    height: 60px; 
+    background-color: #20232A; 
+    padding: 10px;
+    color: #eee;
+}
+.nav ul{    
+    text-align: center;
+}
+.nav li{
+    padding: 10px;
+    display: inline-block;
+    border: none;
+}
+.nav li.active{ border-bottom: 2px solid #61DAFB;}
+.top-wrap a{
+    color: #fff;
+    text-decoration: none;
+}
+.top-wrap a.home{
+    color: #61DAFB;
+    text-decoration: underline;
+}
+/*** 内容 ***/
+.content-wrap .chapter-title{
+    text-align: center;
+}
+.content-wrap .subsection-content{
+    padding: 3px 20px;
+}
+.content-wrap img{
+    width: 500px;
+}
+
+
+.content-wrap{
+    padding: 20px;
+}
+.content-wrap table{ width: 100%;  }
+.content-wrap th, .content-wrap td{ padding: 2px; border: 1px solid #ccc; }
+.content-wrap .col1{
+    min-width: 50px;
+    width: 60px;
+    text-align: center;
+}
+
+.content-wrap .col2{ padding: 6px 3px; }
+
