@@ -42,5 +42,6 @@ body{
 }
 .content-wrap .title{ cursor: pointer;  }
 .content-wrap .title:hover{ color: #61DAFB; }
+.content-wrap p{ margin: 2px 0; }
 
 

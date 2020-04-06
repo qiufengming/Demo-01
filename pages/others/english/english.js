@@ -1,5 +1,6 @@
 $(document).ready(function(){
 	getOutboundTourData();
+	getStepmomTeaParty();
 	$('#english-page .title').click(function(e){
 		$(this).siblings('.cont').toggle();
 	});
@@ -17,7 +18,7 @@ function getOutboundTourData(){
 	}
 	inner += '</ul></div></div>';
 
-	$('#english-page').html(inner);
+	$('#outboundTour').html(inner);
 }
 
 
@@ -26,8 +27,24 @@ function eachChildren(data){
 
 	for(var i=0; i<data.length; i++){
 		var d = data[i];
-        inner += '<li><p class="en">'+d.en+'</p><p class="cn">'+d.cn+'</p></li>';        	
+        inner += '<li style="padding: 3px 0;"><p class="en">'+d.en+'</p><p class="cn">'+d.cn+'</p></li>';        	
     }
     inner += '</ul>';
     return inner;
 }
+
+
+// 后妈茶话会歌词
+function getStepmomTeaParty(){
+	var data = stepmomTeaParty.data;
+	let inner = '<div style="border-bottom: 1px solid #999;"><h3 class="title" style="text-align: center;">迪士尼-后妈茶话会</h3><div class="cont" style="display: none;"><ul>';
+	for(var i=0; i<data.length; i++){
+		var d = data[i];
+		inner += '<li style="padding: 3px 0;"><p class="en">'+d.en+'</p><p class="cn">'+d.cn+'</p></li>';
+	}
+	inner += '</ul></div></div>';
+
+	$('#stepmomTeaParty').html(inner);
+}
+
+
