@@ -1,27 +1,3 @@
-/*** 头部 ***/
-.top-wrap{ 
-    height: 60px; 
-    background-color: #20232A; 
-    padding: 10px;
-    color: #eee;
-}
-.nav ul{    
-    text-align: center;
-}
-.nav li{
-    padding: 10px;
-    display: inline-block;
-    border: none;
-}
-.nav li.active{ border-bottom: 2px solid #61DAFB;}
-.top-wrap a{
-    color: #fff;
-    text-decoration: none;
-}
-.top-wrap a.home{
-    color: #61DAFB;
-    text-decoration: underline;
-}
 
 /*** 内容 ***/
 .content-wrap{
@@ -63,5 +39,17 @@
 .book .title{ cursor: pointer; }
 .book .title:hover{ color: #61DAFB; }
 .book p{ padding: 2px 0; }
+
+
+
+/*** 综合素质 大纲 start ***/
+.syllabus .modal-c, .syllabus .answer{ display: none; padding-left: 10px; }
+.syllabus .sub-c{ padding-left: 10px; }
+.syllabus .modal-t, .syllabus .question{ cursor: pointer; }
+.syllabus .modal-t:hover{ color: #77A89F; }
+.syllabus .question{ position: relative; padding-left: 20px; }
+.syllabus .question:before{ position: absolute; left: 6px; font-weight: bold; font-size: 16px; content:"?"; color: #77A89F; }
+
+/*** 综合素质 大纲 end ***/
 
 
