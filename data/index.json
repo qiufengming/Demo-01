@@ -24,7 +24,9 @@ var data = {
         {"name":"教师资格证","url":"./pages/others/teacherCertificate/teacherCertificate.html"},
         {"name":"MKE净颜嫩肤美容仪","url":"./pages/others/MKE/mke.html"},
         {"name":"艾灸","url":""},
-        {"name":"flag","url":"./pages/others/flag/flag.html"}
+        {"name":"flag","url":"./pages/others/flag/flag.html"},
+        {"name":"食物相克相宜","url":"./pages/others/foodRestriction/foodRestriction.html"},
+        {"name":"四季蔬果","url":"./pages/others/braisedVegetables/braisedVegetables.html"},
     ]
 };
 

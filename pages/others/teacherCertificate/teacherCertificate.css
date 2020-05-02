@@ -57,8 +57,11 @@
 .subsection-title{
     cursor: pointer;
 }
+.subsection-title{ margin: 0; padding: 6px; }
 
-#book01 .title{ cursor: pointer; }
-#book01 .title:hover{ color: #61DAFB; }
+.book{ display: none; }
+.book .title{ cursor: pointer; }
+.book .title:hover{ color: #61DAFB; }
+.book p{ padding: 2px 0; }
 
 

@@ -1,3 +1,44 @@
+/**
+ * 特殊字符转义 防止XSS攻击 用于特殊字符正常显示
+ * @param  {[type]} str [description]
+ * @return {[type]}     [description]
+ */
+function strFilter(str){
+    if(str.length == 0) return '';
+    var s = '';
+    s = str.replace(/&/g, '&amp;');
+    s = str.replace(/</g, '&lt;');
+    s = str.replace(/>/g, '&gt;');
+    s = str.replace(/ /g, '&nbsp;');
+    s = str.replace(/\'/g, '&#39;');
+    s = str.replace(/\"/g, '&quot;');
+
+    return s;
+}
+
+/**
+ * 转义字符还原成html字符
+ * @param  {[type]} str [description]
+ * @return {[type]}     [description]
+ */
+function strValFilter(str){
+    if(str.length == 0) return '';
+    var s = '';
+    s = str.replace(/&amp;/g, '&');
+    s = str.replace(/&lt;/g, '<');
+    s = str.replace(/&gt;/g, '>');
+    s = str.replace(/&nbsp;/g, ' ');
+    s = str.replace(/&#39;/g, '\'');
+    s = str.replace(/&quot;/g, '\"');
+
+    return s;
+}
+
+
+
+
+
+
 function httpRequest(url,callback){
     var request = new XMLHttpRequest();
     request.open('get', url); /*设置请求方法与路径*/
