@@ -27,6 +27,7 @@ var data = {
         {"name":"flag","url":"./pages/others/flag/flag.html"},
         {"name":"食物相克相宜","url":"./pages/others/foodRestriction/foodRestriction.html"},
         {"name":"四季蔬果","url":"./pages/others/braisedVegetables/braisedVegetables.html"},
+        {"name":"color","url":"./pages/others/color/index.html"},
     ]
 };
 
