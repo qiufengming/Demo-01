@@ -31,6 +31,7 @@ var data = {
         {"name":"四季蔬果","url":"./pages/others/braisedVegetables/braisedVegetables.html"},
         {"name":"color","url":"./pages/others/color/index.html"},
         {"name":"Excel","url":"./pages/others/excel/index.html"},
+        {"name":"公务员","url":"./pages/civilServant/index.html"},
     ]
 };
 

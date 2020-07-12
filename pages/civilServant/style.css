@@ -1,0 +1,21 @@
+.content-wrap{ padding: 6px 10px; }
+.modal .modal-t, .modal .sub-t{ cursor: pointer; }
+.modal .modal-t:hover, .modal .sub-t:hover{ color: #77A89F; }
+/* .modal .modal-c, .modal .sub-c{ display: none; } */
+@media (max-width: 991px){
+    .modal .modal-c, .modal .sub-c{ padding-left: 10px; }
+}
+@media (min-width: 992px){
+    .modal .modal-c, .modal .sub-c{ padding-left: 20px; }
+}
+
+.modal .sub-c li{ padding-bottom: 6px; }
+
+.modal-t{ font-size: 22px; height: 40px;}
+.sub-t{ font-size: 18px; }
+.brief{ font-size: 14px; padding: 10px 2px;}
+.sub-wrap .title-c{ font-size: 16px; height: 30px; }
+.sub-wrap .cont-c{ padding-left: 20px; }
+.sub-wrap .cont-c>li>p{ font-size: 15px; font-weight: bold; }
+.sub-wrap .cont-c>li>ul{ padding-left: 20px; }
+

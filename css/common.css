@@ -6,6 +6,7 @@ html, body{
 	padding: 0;
 	margin: 0;
 	background-color: #fff;
+	font-size: 12px;
 }
 table{
 	border-spacing: 0;
@@ -18,6 +19,7 @@ ul{
 p{
 	margin: 0;
 }
+h1,h2,h3,h4,h5,h6{ margin: 0; }
 
 /*** 页面导航 start ***/
 .top-wrap{ 
